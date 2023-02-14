@@ -1,0 +1,50 @@
+
+1. 사용자 넘버링(customer_numbering.py/customer_data(1250)/customer_data_numbering(1250))
+-> 1250명 넘버링된 데이터, 1~1250번 까지
+
+3. 사용자별 긍부정 판별(person_pos_neg_results.py/get_x_variable_functions_5/customer_data_numbering(1250)/customer_data_pos_neg_results(1250) 폴더/1250개 파일)
+-> 평점 컬럼 추가 했음
+
+4. 사용자별 긍정/부정/중립 비율, 전체 긍정/부정/중립 비율 (입력변수 28~33번)
+    (customer_pos_neg_ratio_results.py ,pos_neg_ratio_functions.py/customer_data_pos_neg_ratio_results(1250).xlsx 파일)
+
+
+5. 입력변수 1~27번 구하기(get_x_variable_functions_5.py/get_x_variables_main(5).py/customer_data_x_variables_df1(1250).xlsx 파일)
+- 글로벌 선언 주의 할 것
+- 사용자 이름, 키값 항상 따라 다닐것
+
+6. 평점과 긍부정 판단여부 매칭(pos_neg_match_star_2.py/pos_neg_ratio_functions.py/
+                                          customer_data_pos_neg_matchStar_results(1250) 폴더/ 1250개 파일)
+- 전체 댓글 개수 컬럼 추가(3번째 컬럼)
+
+7. 평점과 긍부정 판단여부 매칭 비율_33번 변수 (X_variable_discord.py / get_x_variable_Discord(1250).xlsx 파일에 저장)
+- customer_data_pos_neg_matchStar_results(1250) 폴더/ 1250개 파일 읽어와서 구함
+- 데이터 프레임3에 해당
+
+8. 1~27 번 입력변수(데이터프레임1),  28~32번 입력변수(데이터프레임2), 33번 입력변수(데이터프레임3) 
+- 파일 하나로 합치기 (merge_dataframe.py/ final_x_variables_results_(1250).xlsx 파일에 저장)
+
+- 모든 입력변수 한 파일로 합치기 위한 코드 (두 개의 데이터 프레임 합치기)
+    -> customer_data2_x_variables_df1(1250).xlsx (1~22번 입력변수 엑셀파일, 데이터 프레임1)
+    -> customer_data2_pos_neg_ratio_results(1250).xlsx (23~28번 입력변수 엑셀파일, 데이터 프레임2)
+    -> get_x_variable_Discord(1250).xlsx (29번 입력변수 엑셀파일, 데이터 프레임3)
+
+- 필요없는 컬럼제거 
+final_x_variables_results_(1250).xlsx -> final_x_variables_results_2_(1250).xlsx
+
+9. 정규화 (nomalization.py, final_x_variables_results_정규화_(1250).xlsx/6개 입력변수 직접 정규화)
+
+print(type(data["4. 총 도움이 돼요 수(해당기간)"]))
+print(type(data["10. 별점 평균"]))
+print(type(data["12. 작성 주기 평균"]))
+print(type(data["13. 리뷰 작성하지 않은 기간"]))
+print(type(data["24. 리뷰 길이 평균(글자수)"]))
+print(type(data["25. 리뷰어의 전체 댓글 수(해당기간)"]))
+
+10. 엑셀 파일 수정 -> 필요없는 컬럼 제거
+-  final_x_variables_results_정규화_(1250).xlsx ->  final_x_variables_results_정규화_2_(1250).xlsx
+-> 모델링에 사용되는 최종 데이터(final_x_variables_results_정규화_2_(1250).xlsx)
+
+
+
+
