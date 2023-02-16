@@ -23,7 +23,7 @@
 ## 연구 결과
 - **1250명 모델링 결과(2차원)**
 
-![2차원 모델링](https://user-images.githubusercontent.com/96126414/219450017-062798e4-49ed-4a6b-aaff-ed96e2dd2705.png)
+![2차원 모델링](https://user-images.githubusercontent.com/96126414/219452173-afd21eca-607b-4b95-b62a-664f63bd9267.png)
 
 
 - **1250명 모델링 결과(3차원)**
