@@ -26,6 +26,7 @@
 ![2차원 모델링](https://user-images.githubusercontent.com/96126414/219452173-afd21eca-607b-4b95-b62a-664f63bd9267.png)
 
 
+
 - **1250명 모델링 결과(3차원)**
 
 ![3차원 모델링1](https://user-images.githubusercontent.com/96126414/219450153-fecad285-1c02-49ad-9fc7-d138ee35bf97.png)
@@ -33,9 +34,10 @@
 ![3차원 모델링2](https://user-images.githubusercontent.com/96126414/219450170-78183594-ce87-4942-b693-eb763987b1c9.png)
 
 
+
 - **1250명 시장 세분화 결과**
 
-![고객 세분화 특징](https://user-images.githubusercontent.com/96126414/219450348-c98c208a-936d-421c-b45b-046d413a7fd2.png)
+![고객 세분화 특징](https://user-images.githubusercontent.com/96126414/219452381-813ffd9b-bf82-4f79-b755-e576c4e40d04.png)
 
 
 - **기대효과 및 시장성**
